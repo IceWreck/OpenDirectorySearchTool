@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="IceWreck">
+    <title>Open Directory Search Tool · Abifog</title>
+
+    <link rel="canonical" href="https://opendirsearch.abifog.com">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link href="css/custom_styles.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/search.js"></script>
+  </head>
+  <body>
+    <form class="form-signin">
+  <div class="text-center mb-3">
+    <img class="mb-4" src="img/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Open Directory Search Tool</h1>
+    <p>Find open directories with this tool. It uses google's engine for the actual search.</p>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" id="searchTerm" class="form-control" placeholder="Search Term" required autofocus>
+    <label for="inputTerm">Search Term</label>
+  </div>
+<center>
+  <label class="radio-inline">
+    <input id="o1" type="radio" name="optradio" checked>Everything 
+  </label>
+  <br>
+  <label class="radio-inline">
+    <input id="o2" type="radio" name="optradio"> Video
+  </label>
+  <label class="radio-inline">
+    <input id="o3" type="radio" name="optradio"> Audio
+  </label>
+  <label class="radio-inline">
+    <input id="o4" type="radio" name="optradio"> eBook
+  </label>
+  <label class="radio-inline">
+    <input id="o5" type="radio" name="optradio"> Image
+  </label>
+  <label class="radio-inline">
+    <input id="o6" type="radio" name="optradio"> Archive
+  </label>
+</center>
+  <button class="btn btn-lg btn-primary btn-block" onclick="search();return false;" type="submit">Search</button>
+  <p class="mt-5 mb-3 text-muted text-center">Open Directory Search Tool · Abifog </p>
+</form>
+</body>
+</html>
